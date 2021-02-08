@@ -1,0 +1,33 @@
+b{
+    color: rgb(197, 80, 13);
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 0.75cm;
+ }
+ main{
+     text-align: center;
+ }
+ h1{
+     font-size: 2cm;
+     font-weight: bold;
+     color: rgb(218, 140, 40);
+     
+ }
+ p{
+    font-size: 0.75cm;
+ }
+ ul{
+     font-size: 0.5cm;
+      
+     list-style-type: square;
+ }
+ li{
+     list-style: square;
+ }
+ footer{
+     text-align: center;
+     
+ }
+body{
+    background-color: thistle;
+}
