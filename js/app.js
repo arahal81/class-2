@@ -93,9 +93,46 @@ switch (color.toUpperCase()) {
     default:
         break;
 }
-if (counter > 3) {
-    alert('Good job you got ' + counter + '/5 correct answers');
+
+let number1 = 9;
+for (let i = 0; i < 5; i++) {
+    let temp_n = prompt('attempt number: ' + parseInt(i + 1) + '\n  guess a number from 1-20');
+    if (temp_n == number1) {
+        alert('Good job ' + userName + ' you got correct answers the number is: ' + number1);
+        counter++;
+        break;
+    }
+    else if (temp_n >= 5 && temp_n <= 15) {
+        alert('the guess is “too high” ');
+    }
+    else {
+        alert('the guess is “too low” ');
+    }
+    if (i == 4) {
+        alert('you\'ve exhausted all attempts the number is: ' + number1);
+    }
+
+}
+
+let rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+
+
+for (let i = 0; i < 6; i++) {
+    let temp_color = prompt('attempt number: ' + parseInt(i + 1) + '\nMention a color from rainbow colors').toLowerCase();
+    if (rainbow.includes(temp_color)) {
+        alert('Good job ' + userName + ' you got correct answers ');
+        counter++;
+        break;
+    }
+    if (i == 5) {
+        alert('you\'ve exhausted all attempts \n the nrainbow colors ar: ' + rainbow)
+    }
+}
+
+
+if (counter > 5) {
+    alert('Good job you got ' + counter + '/7 correct answers');
 }
 else {
-    alert(' you get ' + counter + '/5 correct answers');
+    alert(' you get ' + counter + '/7 correct answers');
 }

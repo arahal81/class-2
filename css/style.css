@@ -11,12 +11,15 @@ b{
      font-size: 2cm;
      font-weight: bold;
      color: rgb(218, 140, 40);
+     border: goldenrod;
+     border-width: 5px;
+     margin: 1cm;
      
  }
  p{
     font-size: 0.75cm;
  }
- ul{
+ .ul{
      font-size: 0.5cm;
       
      list-style-type: square;
@@ -30,4 +33,18 @@ b{
  }
 body{
     background-color: thistle;
+}
+.ol {
+   
+    list-style-type: none;
+    counter-reset: lis calc(var(--s) - 1) ;
+  
+
+}
+li {
+    counter-increment: lis
+}
+li:before {
+    content: counter(lis)"- ";
+    color: rgb(28, 75, 9);
 }
