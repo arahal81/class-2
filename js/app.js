@@ -59,7 +59,7 @@ switch (hobby.toUpperCase()) {
         break;
 }
 let job = prompt('pls answer y/n or yes/no \n My job is web developer ')
-switch (hobby.toUpperCase()) {
+switch (job.toUpperCase()) {
 
     case 'N':
     case 'NO':
@@ -77,7 +77,7 @@ switch (hobby.toUpperCase()) {
 }
 
 let color = prompt('pls answer y/n or yes/no \n My fav color\'s Black ');
-switch (hobby.toUpperCase()) {
+switch (color.toUpperCase()) {
 
     case 'N':
     case 'NO':
