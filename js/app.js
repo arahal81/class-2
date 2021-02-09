@@ -98,7 +98,7 @@ let number1 = 9;
 for (let i = 0; i < 5; i++) {
     let temp_n = prompt('attempt number: ' + parseInt(i + 1) + '\n  guess a number from 1-20');
     if (temp_n == number1) {
-        alert('Good job ' + userName + ' you got correct answers the number is: ' + number1);
+        alert('Good job ' + userName + ' you got correct answer the number is: ' + number1);
         counter++;
         break;
     }
@@ -120,12 +120,12 @@ let rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 for (let i = 0; i < 6; i++) {
     let temp_color = prompt('attempt number: ' + parseInt(i + 1) + '\nMention a color from rainbow colors').toLowerCase();
     if (rainbow.includes(temp_color)) {
-        alert('Good job ' + userName + ' you got correct answers ');
+        alert('Good job ' + userName + ' you got correct answer \n the nrainbow colors are: ' + rainbow);
         counter++;
         break;
     }
     if (i == 5) {
-        alert('you\'ve exhausted all attempts \n the nrainbow colors ar: ' + rainbow)
+        alert('you\'ve exhausted all attempts \n the nrainbow colors are: ' + rainbow);
     }
 }
 
