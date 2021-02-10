@@ -2,6 +2,10 @@
 
 let userName = prompt('please enter your name');
 alert('welcom ' + userName);
+
+function question1 (){
+
+
 let age = prompt('pls answer y/n or yes/no \n my birthyear is 1990?');
 let counter = 0;
 
@@ -22,6 +26,9 @@ switch (age.toUpperCase()) {
         break;
 
 }
+}
+
+
 let major = prompt('pls answer y/n or yes/no \n my major is CS')
 switch (major.toUpperCase()) {
 
