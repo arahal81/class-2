@@ -53,6 +53,8 @@ switch (major.toUpperCase()) {
 }
 
 
+function question3(){
+
 
 let hobby = prompt('pls answer y/n or yes/no \n my fav hobby is playing football?');
 switch (hobby.toUpperCase()) {
@@ -71,6 +73,9 @@ switch (hobby.toUpperCase()) {
     default:
         break;
 }
+}
+
+
 let job = prompt('pls answer y/n or yes/no \n My job is web developer ')
 switch (job.toUpperCase()) {
 
