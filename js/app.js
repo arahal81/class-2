@@ -95,7 +95,7 @@ switch (color.toUpperCase()) {
 }
 
 let number1 = 9;
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 4; i++) {
     let temp_n = prompt('attempt number: ' + parseInt(i + 1) + '\n  guess a number from 1-20');
     if (temp_n == number1) {
         alert('Good job ' + userName + ' you got correct answer the number is: ' + number1);
@@ -108,7 +108,7 @@ for (let i = 0; i < 5; i++) {
     else if (temp_n < number1) {
         alert('the guess is “too low” ');
     }
-    if (i == 4) {
+    if (i == 3) {
         alert('you\'ve exhausted all attempts the number is: ' + number1);
     }
 
