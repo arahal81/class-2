@@ -119,6 +119,8 @@ switch (color.toUpperCase()) {
 }
 }
 
+function question6 (){
+
 
 let number1 = 9;
 for (let i = 0; i < 4; i++) {
@@ -139,6 +141,8 @@ for (let i = 0; i < 4; i++) {
     }
 
 }
+}
+
 
 let rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
