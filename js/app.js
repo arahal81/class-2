@@ -28,6 +28,8 @@ switch (age.toUpperCase()) {
 }
 }
 
+function question2 () {
+
 
 let major = prompt('pls answer y/n or yes/no \n my major is CS')
 switch (major.toUpperCase()) {
@@ -48,6 +50,10 @@ switch (major.toUpperCase()) {
         break;
 
 }
+}
+
+
+
 let hobby = prompt('pls answer y/n or yes/no \n my fav hobby is playing football?');
 switch (hobby.toUpperCase()) {
 
