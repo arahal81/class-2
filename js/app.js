@@ -119,9 +119,17 @@ let rainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
 for (let i = 0; i < 6; i++) {
     let temp_color = prompt('attempt number: ' + parseInt(i + 1) + '\nMention a color from rainbow colors').toLowerCase();
-    if (rainbow.includes(temp_color)) {
-        alert('Good job ' + userName + ' you got correct answer \n the nrainbow colors are: ' + rainbow);
-        counter++;
+    let flag = false;
+    for (let j = 0; j < rainbow.length; j++) {
+        if (rainbow[j] === temp_color) {
+            alert('Good job ' + userName + ' you got correct answer \n the nrainbow colors are: ' + rainbow);
+            counter++;
+            f = true;
+            break;
+        }
+
+    }
+    if (flag) {
         break;
     }
     if (i == 5) {
