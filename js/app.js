@@ -97,6 +97,8 @@ switch (job.toUpperCase()) {
 }
 }
 
+function question5 () {
+
 
 let color = prompt('pls answer y/n or yes/no \n My fav color\'s Black ');
 switch (color.toUpperCase()) {
@@ -115,6 +117,8 @@ switch (color.toUpperCase()) {
     default:
         break;
 }
+}
+
 
 let number1 = 9;
 for (let i = 0; i < 4; i++) {
