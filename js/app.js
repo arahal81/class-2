@@ -75,6 +75,8 @@ switch (hobby.toUpperCase()) {
 }
 }
 
+function question4() {
+
 
 let job = prompt('pls answer y/n or yes/no \n My job is web developer ')
 switch (job.toUpperCase()) {
@@ -93,6 +95,8 @@ switch (job.toUpperCase()) {
     default:
         break;
 }
+}
+
 
 let color = prompt('pls answer y/n or yes/no \n My fav color\'s Black ');
 switch (color.toUpperCase()) {
