@@ -102,10 +102,10 @@ for (let i = 0; i < 5; i++) {
         counter++;
         break;
     }
-    else if (temp_n >= 5 && temp_n <= 15) {
+    else if (temp_n > number1) {
         alert('the guess is “too high” ');
     }
-    else {
+    else if (temp_n < number1) {
         alert('the guess is “too low” ');
     }
     if (i == 4) {
