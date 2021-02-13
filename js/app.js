@@ -143,4 +143,4 @@ if (counter > 5) {
 }
 else {
     alert(' you get ' + counter + '/7 correct answers');
-}
+}       
